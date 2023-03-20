@@ -1,0 +1,32 @@
+.ad-sale {
+  padding: 3rem;
+  height: 80vh;
+  width: 100%;
+  background: url(https://images.unsplash.com/photo-1670349148055-e11a0b3be242?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)
+    top/cover no-repeat;
+}
+
+.ad-sale-text {
+  float: right;
+  max-width: 700px;
+  margin: auto;
+  position: relative;
+  height: 600px;
+  width: 700px;
+}
+
+.ad-sale-text p {
+  padding: 2rem;
+  font-size: 2.2rem;
+  color: aliceblue;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 600;
+  text-shadow: 4px 4px 10px black;
+}
+
+.button {
+  position: absolute;
+  bottom: 180px;
+  right: 100px;
+}

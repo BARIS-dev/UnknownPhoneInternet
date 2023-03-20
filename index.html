@@ -5,11 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/general-style.css" />
+    <link rel="stylesheet" href="./src/header.css" />
+    <link rel="stylesheet" href="./src/main.css" />
+    <link rel="stylesheet" href="./src/buttons.css" />
+    <link rel="stylesheet" href="./src/ad-sale.css" />
     <title>Unknown | Phone & Internet</title>
   </head>
   <body>
     <header>
-      <nav></nav>
+      <div class="navigation-bar">
+        <div class="contact-bar">
+          <ul class="contact-bar-links">
+            <li><a href="#">Netz</a></li>
+            <li><a href="#">Status</a></li>
+            <li><a href="#">Shops</a></li>
+          </ul>
+          <span>Beratung und Bestellung: 0800 / 012 34 56</span>
+        </div>
+        <nav class="topnav">
+          <div class="nav-logo">
+            <img src="./img/logo.png" height="80" alt="Logo" />
+          </div>
+          <div class="nav-links">
+            <ul>
+              <li><a href="#">Mobilfunk</a></li>
+              <li><a href="#">Angebote</a></li>
+              <li><a href="#">Produkte</a></li>
+            </ul>
+          </div>
+          <div class="nav-customer"></div>
+        </nav>
+      </div>
     </header>
+    <section>
+      <div class="ad-sale">
+        <div class="ad-sale-text">
+          <p>Verbinde Dich neu mit Deinen Freunden und deiner Familie!</p>
+
+          <p>
+            Jetzt mit
+            <span style="color: var(--main-brand-color)">Family Plus</span> neue
+            Vorteile genießen und alles Andere stehen und liegen lassen.
+          </p>
+        </div>
+        <div class="button">
+          <a href="#"><span>Mehr Infos </span></a>
+        </div>
+      </div>
+    </section>
+    <main>
+      <ul class="categories">
+        <li>
+          <a href="#">
+            <img
+              class="icon"
+              height="60"
+              src="./img/icons/8666629_wifi_icon.svg"
+            />
+            Mobilfunk
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img height="60" src="./img/icons/8666632_phone_icon.svg" />
+            Festnetz
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img height="60" src="./img/icons/8666768_tv_television_icon.svg" />
+            TV
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img height="60" src="./img/icons/8666742_smartphone_icon.svg" />
+            Telefone
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img height="60" src="./img/icons/8666544_tablet_icon.svg" />
+            Tablets
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img height="60" src="./img/icons/8666690_help_circle_icon.svg" />
+            Kundenservice
+          </a>
+        </li>
+      </ul>
+    </main>
+    <footer></footer>
   </body>
 </html>

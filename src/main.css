@@ -1,0 +1,32 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  list-style-type: none;
+  background-color: var(--secondary-color);
+  overflow: hidden;
+}
+
+.categories a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 100px 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.categories li:hover {
+  background-color: var(--main-brand-color);
+  transition: ease-in 0.2s;
+}
+
+.categories li {
+  text-align: center;
+  transition: ease-out 0.2s;
+}
+
+.categories img {
+  margin-bottom: 10px;
+}
