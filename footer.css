@@ -23,8 +23,6 @@ footer {
   color: #393e46;
 }
 
-
-
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
@@ -35,10 +33,7 @@ footer {
   vertical-align: baseline;
   padding: 16px 4px;
   justify-content: center;
-
 }
-
-
 
 /* Set a specific color for each brand */
 
@@ -57,10 +52,9 @@ footer {
   margin-right: 5px;
 }
 
-
 /* Twitter */
 .fa-twitter {
-  background: #eeeeee ;
+  background: #eeeeee;
   color: black;
   border-radius: 100%;
   display: flex;
@@ -68,7 +62,6 @@ footer {
   align-items: center;
   margin-right: 5px;
 }
-
 
 .fa-instagram {
   background: #eeeeee;
@@ -104,13 +97,12 @@ ol {
   display: inline-table;
   text-align: justify;
   color: #eeeeee;
-  
+
   font-family: "poppins", sans-serif;
   font-size: 0.883rem;
   padding-bottom: 1rem;
   text-decoration: none;
 }
-
 
 .list-kunden :visited {
   color: #b9b9b9;
