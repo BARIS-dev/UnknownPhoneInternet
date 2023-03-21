@@ -45,7 +45,7 @@ footer {
 /* Facebook */
 .fa-facebook {
   background: #eeeeee;
-  color: black;
+  color: blue;
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -61,7 +61,7 @@ footer {
 /* Twitter */
 .fa-twitter {
   background: #eeeeee ;
-  color: black;
+  color: rgb(52, 149, 206);
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -72,7 +72,7 @@ footer {
 
 .fa-instagram {
   background: #eeeeee;
-  color: black;
+  color: rgba(223, 96, 155, 0.712);
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -81,7 +81,7 @@ footer {
 
 .fa-youtube {
   background: #eeeeee;
-  color: black;
+  color: red;
   border-radius: 100%;
   display: flex;
   justify-content: center;
