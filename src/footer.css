@@ -29,6 +29,7 @@ footer {
   justify-content: center;
   list-style-type: none;
   gap: 20px;
+  font-family: "poppins", sans-serif;
   margin-bottom: 3rem;
   font-size: 1.2rem;
 }
@@ -130,6 +131,7 @@ ol {
   font-size: 0.883rem;
   padding: auto;
   text-decoration: none;
+
 }
 .list-kunden a {
   color: var(--secondary-text-color);
