@@ -1,6 +1,6 @@
 footer {
   text-decoration: none;
-  background-color: #393e46;
+  background-color: var(--primary-color);
 }
 
 .list-c {
@@ -73,7 +73,7 @@ footer {
 }
 
 .fa-youtube {
-  background: #eeeeee;
+  background: var(--text-color);
   color: red;
   border-radius: 100%;
   display: flex;
@@ -105,9 +105,9 @@ ol {
 }
 
 .list-kunden :visited {
-  color: #b9b9b9;
+  color: var(--secondary-text-color);
 }
 
 .list-kunden :hover {
-  color: #00adb5;
+  color: var(--main-brand-color);
 }

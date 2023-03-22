@@ -35,7 +35,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 2px 3px #00a6af;
+  box-shadow: 0px 2px 3px rgba(30, 30, 30, 0.5);
   position: relative;
 }
 
