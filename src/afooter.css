@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 2rem;
+  margin: auto;
+}
+
+.list-c {
+  position: relative;
+  padding: 35px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  vertical-align: baseline;
+  border: none;
+  border-spacing: auto;
+  font-family: "poppins", sans-serif;
+  font-size: 1.2rem;
+}
+
+.list-c ul {
+  list-style-type: none;
+}
+/* a hover effect */
+
+.list-c :hover {
+  opacity: 0.7;
+  color: #393e46;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+  padding: 16px 4px;
+  justify-content: center;
+}
+
+footer a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+footer a :visited {
+  color: #b9b9b9;
+}
+
+footer a:hover {
+  color: #00adb5;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #eeeeee;
+  color: blue;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #eeeeee;
+  color: rgb(53, 141, 192);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.fa-instagram {
+  background: #eeeeee;
+  color: rgba(223, 96, 155, 0.712);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-youtube {
+  background: var(--text-color);
+  color: red;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+/* OL links list styles*/
+
+ol {
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  text-decoration: none;
+}
+
+.list-kunden {
+  list-style: none;
+  display: inline-table;
+  text-align: justify;
+  color: var(--text-color);
+  font-family: "poppins", sans-serif;
+  font-size: 0.883rem;
+  padding: auto;
+  text-decoration: none;
+}
+.list-kunden a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-size: 0.64rem;
+  text-align: justify;
+}
+.list-kunden a:visited {
+  color: var(--secondary-text-color);
+}
+
+.list-kunden a:hover {
+  color: var(--main-brand-color);
+}
