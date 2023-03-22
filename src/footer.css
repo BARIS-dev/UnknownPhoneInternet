@@ -1,6 +1,7 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 footer {
   text-decoration: none;
@@ -39,15 +40,15 @@ footer {
   justify-content: center;
 }
 
-a {
+footer a {
   color: #eeeeee;
   text-decoration: none;
 }
-a :visited {
+footer a :visited {
   color: #b9b9b9;
 }
 
-a:hover {
+footer a:hover {
   color: #00adb5;
 }
 
@@ -71,7 +72,7 @@ a:hover {
 /* Twitter */
 .fa-twitter {
   background: #eeeeee;
-  color: black;
+  color: rgb(53, 141, 192);
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -104,7 +105,9 @@ ol {
   list-style: none;
   justify-content: center;
   text-align: center;
-  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
   text-decoration: none;
 }
 
@@ -112,10 +115,22 @@ ol {
   list-style: none;
   display: inline-table;
   text-align: justify;
-  color: #eeeeee;
-
+  color: var(--text-color);
   font-family: "poppins", sans-serif;
   font-size: 0.883rem;
-  padding-bottom: 1rem;
+  padding: auto;
   text-decoration: none;
+}
+.list-kunden a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-size: 0.64rem;
+  text-align: justify;
+}
+.list-kunden a:visited {
+  color: var(--secondary-text-color);
+}
+
+.list-kunden a:hover {
+  color: var(--main-brand-color);
 }
