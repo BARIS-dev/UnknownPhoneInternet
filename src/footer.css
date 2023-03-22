@@ -39,22 +39,6 @@ footer {
   justify-content: center;
 }
 
-<<<<<<< HEAD
-=======
-a{
-  color: #eeeeee;
-  text-decoration: none;
-}
-a :visited {
-  color: #b9b9b9;
-}
-
-a:hover {
-  color: #00adb5;
-}
-
-
->>>>>>> 483c5f9 (updated)
 /* Set a specific color for each brand */
 
 /* Facebook */
@@ -126,16 +110,13 @@ ol {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-.list-kunden :visited {
+.list-kunden a :visited {
   color: var(--secondary-text-color);
 }
 
-.list-kunden :hover {
+.list-kunden a :hover {
   color: var(--main-brand-color);
 }
-=======
 
->>>>>>> 483c5f9 (updated)
 
 
