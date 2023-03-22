@@ -115,9 +115,22 @@ ol {
   display: inline-table;
   text-align: justify;
   color: #eeeeee;
-
   font-family: "poppins", sans-serif;
   font-size: 0.883rem;
   padding-bottom: 1rem;
   text-decoration: none;
 }
+.list-kunden a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.list-kunden a:visited {
+  color: var(--secondary-text-color);
+}
+
+.list-kunden a:hover {
+  color: var(--main-brand-color);
+}
+
+
+
