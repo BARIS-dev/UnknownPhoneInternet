@@ -1,3 +1,7 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 footer {
   text-decoration: none;
   background-color: var(--primary-color);
@@ -35,6 +39,22 @@ footer {
   justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+a{
+  color: #eeeeee;
+  text-decoration: none;
+}
+a :visited {
+  color: #b9b9b9;
+}
+
+a:hover {
+  color: #00adb5;
+}
+
+
+>>>>>>> 483c5f9 (updated)
 /* Set a specific color for each brand */
 
 /* Facebook */
@@ -104,6 +124,7 @@ ol {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .list-kunden :visited {
   color: var(--secondary-text-color);
 }
@@ -111,3 +132,8 @@ ol {
 .list-kunden :hover {
   color: var(--main-brand-color);
 }
+=======
+
+>>>>>>> 483c5f9 (updated)
+
+
