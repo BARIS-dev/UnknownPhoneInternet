@@ -18,6 +18,10 @@
   flex-direction: column;
 }
 
+.categories a:hover {
+  color: var(--text-color);
+}
+
 .categories li:hover {
   background-color: var(--main-brand-color);
   transition: ease-in 0.2s;
