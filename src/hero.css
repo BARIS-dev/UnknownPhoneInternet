@@ -1,6 +1,6 @@
 .ad-sale {
-  padding: 3rem;
-  height: 80vh;
+  padding: 10rem 3rem 0 3rem;
+  height: 100vh;
   width: 100%;
   background: url(https://images.unsplash.com/photo-1670349148055-e11a0b3be242?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)
     top/cover no-repeat;
@@ -10,8 +10,9 @@
   float: right;
   max-width: 700px;
   margin: auto;
+  margin-right: 300px;
   position: relative;
-  height: 600px;
+  height: 70%;
   width: 700px;
 }
 
@@ -27,6 +28,6 @@
 
 .button {
   position: absolute;
-  bottom: 180px;
-  right: 100px;
+  bottom: 100px;
+  right: 50px;
 }

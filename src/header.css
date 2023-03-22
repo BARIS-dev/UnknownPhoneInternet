@@ -28,16 +28,18 @@
 }
 
 .topnav {
+  height: 6rem;
   overflow: hidden;
   width: 100%;
   background-color: var(--main-brand-color);
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 2px 3px #00a6af;
+  box-shadow: 0px 2px 3px rgba(30, 30, 30, 0.5);
+  position: relative;
 }
 .nav-links ul {
-  padding-left: 2rem;
+  padding-left: 8rem;
   display: flex;
   list-style-type: none;
   background-color: var(--main-brand-color);
@@ -61,4 +63,47 @@
 .topnav img {
   float: left;
   margin-left: 2rem;
+}
+
+.navigation-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-customer {
+  float: right;
+}
+
+.nav-customer ul {
+  list-style-type: none;
+  display: flex;
+  margin-right: 2rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 15px;
+  overflow: hidden;
+}
+
+.nav-customer ul img {
+  padding-right: 5px;
+  margin: 0;
+}
+
+.nav-customer ul a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.nav-customer ul li:hover:nth-child(1) {
+}
+
+.nav-customer ul li:hover:nth-child(2) {
+}
+
+.nav-logo {
+  float: left;
+  position: absolute;
 }
