@@ -6,6 +6,9 @@
 footer {
   text-decoration: none;
   background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
 }
 
 .list-c {
