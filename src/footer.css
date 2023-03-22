@@ -118,13 +118,14 @@ ol {
   color: var(--text-color);
   font-family: "poppins", sans-serif;
   font-size: 0.883rem;
-  padding-bottom: 1rem;
+  padding: auto;
   text-decoration: none;
 }
 .list-kunden a {
   color: var(--secondary-text-color);
   text-decoration: none;
   font-size: 0.64rem;
+  text-align: justify;
 }
 .list-kunden a:visited {
   color: var(--secondary-text-color);
