@@ -36,7 +36,6 @@
   align-items: center;
   box-shadow: 0px 2px 3px #00a6af;
 }
-
 .nav-links ul {
   padding-left: 2rem;
   display: flex;
@@ -59,7 +58,6 @@
   background-color: var(--secondary-color);
   color: var(--main-brand-color);
 }
-
 .topnav img {
   float: left;
   margin-left: 2rem;
