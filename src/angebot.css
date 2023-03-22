@@ -1,12 +1,11 @@
 body {
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
 }
 
 .g-div {
   background-color: rgb(247, 241, 234);
-  width: 120em;
   height: 33em;
   display: flex;
   justify-content: center;
