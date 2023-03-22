@@ -107,7 +107,7 @@ ol {
   text-align: center;
   display: flex;
   align-items: center;
-  padding-left: 100px ;
+  padding-left: 100px;
   text-decoration: none;
 }
 
@@ -115,7 +115,7 @@ ol {
   list-style: none;
   display: inline-table;
   text-align: justify;
-  color: #eeeeee;
+  color: var(--text-color);
   font-family: "poppins", sans-serif;
   font-size: 0.883rem;
   padding-bottom: 1rem;
@@ -133,6 +133,3 @@ ol {
 .list-kunden a:hover {
   color: var(--main-brand-color);
 }
-
-
-
