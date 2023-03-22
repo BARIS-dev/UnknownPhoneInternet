@@ -2,6 +2,13 @@
   display: flex;
   justify-content: space-around;
   align-items: top;
+  margin: auto;
+  gap: 5rem;
+  list-style-type: none;
+}
+
+.list-kunden {
+  list-style-type: none;
 }
 
 footer {
