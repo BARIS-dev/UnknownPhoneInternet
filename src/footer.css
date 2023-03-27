@@ -21,6 +21,24 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: var(--primary-color);  
+  align-items: center;
+}
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+  footer , .container-kunden {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+  footer , .container-kunden  {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
 }
 
 .list-c ul {
@@ -128,6 +146,7 @@ ol {
   text-align: justify;
   color: var(--text-color);
   font-family: "poppins", sans-serif;
+
   font-size: 0.883rem;
   padding: auto;
   text-decoration: none;
