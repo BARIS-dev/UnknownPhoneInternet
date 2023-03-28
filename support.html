@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/general-style.css" />
     <link rel="stylesheet" href="./src/header.css" />
@@ -10,11 +9,12 @@
     <link rel="stylesheet" href="./src/buttons.css" />
     <link rel="stylesheet" href="./src/hero.css" />
     <link rel="stylesheet" href="./src/footer.css" />
+    <link rel="stylesheet" href="./src/support-style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Unknown | Phone & Internet</title>
+    <title>Support | Unknown</title>
   </head>
   <body>
     <header>
@@ -38,13 +38,8 @@
             <ul>
               <li><a href="#">Mobilfunk</a></li>
               <li><a href="#">Angebote</a></li>
-              <li><a href="#" class="dropdown">Produkte</a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Smartphones</a></li>
-                  <li><a href="#">Tablets</a></li>
-                  <li><a href="#">Fernseher</a></li>
+              <li><a href="#">Produkte</a></li>
             </ul>
-          </li>
           </div>
           <div class="nav-customer">
             <ul>
@@ -64,66 +59,65 @@
         </nav>
       </div>
     </header>
-    <section>
-      <div class="ad-sale">
-        <div class="ad-sale-text">
-          <p>Verbinde Dich neu mit Deinen Freunden und deiner Familie!</p>
-          <p>
-            Jetzt mit
-            <span style="color: var(--main-brand-color)">Family Plus</span> neue
-            Vorteile genießen und alles Andere stehen und liegen lassen.
-          </p>
-        </div>
-        <div class="button">
-          <a href="angebot.html"><span>Zum Angebot </span></a>
-        </div>
-      </div>
-    </section>
     <main>
-      <ul class="categories">
-        <li>
-          <a href="#">
-            <img
-              class="icon"
-              height="60"
-              src="./img/icons/8666629_wifi_icon.svg"
-            />
-            Mobilfunk
-          </a>
-        </li>
-        <li>
-          <a href="#"
-            ><img height="60" src="./img/icons/8666632_phone_icon.svg" />
-            Festnetz
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img height="60" src="./img/icons/8666768_tv_television_icon.svg" />
-            TV
-          </a>
-        </li>
-        <li>
-          <a href="#"
-            ><img height="60" src="./img/icons/8666742_smartphone_icon.svg" />
-            Telefone
-          </a>
-        </li>
-        <li>
-          <a href="#"
-            ><img height="60" src="./img/icons/8666544_tablet_icon.svg" />
-            Tablets
-          </a>
-        </li>
-        <li>
-          <a href="./support.html"
-            ><img height="60" src="./img/icons/8666690_help_circle_icon.svg" />
-            Kundenservice
-          </a>
-        </li>
-      </ul>
-    </main>
+      <h2>Unknown Kundenservice</h2>
+      <h5>Setzen Sie sich ganz leicht mit uns in Verbindung.</h5>
+      <form
+        action="SENDEADRESSE"
+        id="ft-form"
+        method="POST"
+        accept-charset="UTF-8"
+      >
+        <fieldset>
+          <label>
+            Ihr Name <br />
+            <input
+              class="input"
+              type="text"
+              name="Name"
+              placeholder="Ihr Name"
+              required
+          /></label>
+          <label>
+            Ihre E-Mail-Adresse <br />
+            <input
+              class="input"
+              type="email"
+              name="E-Mail"
+              placeholder="Ihre E-Mail-Adresse"
+              required
+          /></label>
+          <label>
+            Ihre Nachricht <br />
+            <textarea
+              class="input"
+              rows="10"
+              name="Nachricht"
+              placeholder="Ihre Nachricht"
+              required
+            ></textarea>
+          </label>
+          <div>
+            <label>
+              <input
+                type="checkbox"
+                name="Datenverarbeitung bestätigt"
+                value="Ja"
+                required
+              />
+              Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben
+              <br />
+              zum Zwecke der Anfragebearbeitung, einverstanden bin.
+            </label>
+          </div>
 
+          <div class="btn">
+            <input type="text" name="_gotcha" value="" style="display: none" />
+            <input class="send-btn" type="submit" value="Absenden" />
+          </div>
+        </fieldset>
+      </form>
+    </main>
     <footer>
       <div class="list-c">
         <ul>
