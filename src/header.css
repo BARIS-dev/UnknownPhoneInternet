@@ -31,7 +31,7 @@
 .topnav {
   height: 6rem;
   width: 100%;
-  background: linear-gradient(to bottom, var(--main-brand-color), #0a74bb);
+  background: linear-gradient(to top, var(--main-brand-color), #0a74bb);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,6 +53,7 @@
   color: var(--text-color);
   font-size: 2rem;
   padding: 1.6rem 2rem 1.6rem 2rem;
+  transition: 0.5s ease;
 }
 
 .nav-links a:hover {
@@ -60,6 +61,7 @@
   opacity: 0.5;
   color: var(--main-brand-color);
 }
+
 .topnav img {
   float: left;
   margin-left: 2rem;
@@ -115,7 +117,7 @@ nav ul li a {
   padding: 15px;
 }
 
-nav ul li:hover > .dropdown-menu {
+nav ul li:hover .dropdown-menu {
   display: block;
 }
 .dropdown-menu {
