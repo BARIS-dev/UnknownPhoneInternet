@@ -1,8 +1,6 @@
 .button {
   display: inline-block;
-  border-radius: 10px;
   background-color: var(--main-brand-color);
-  border: none;
   color: #ffffff;
   text-align: center;
   font-size: 2rem;
@@ -10,7 +8,9 @@
   width: 350px;
   transition: all 0.5s;
   cursor: pointer;
+  border-radius: 15px;
   margin: 5px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .button span {
