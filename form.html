@@ -20,7 +20,7 @@
             <div class="inputs">
               <div>
                 <input
-                  class="col-12 col-md-6"
+                  class="col-10 col-md-5"
                   type="text"
                   name="firstname"
                   id="firstname"
@@ -29,7 +29,7 @@
               </div>
               <div>
                 <input
-                  class="col-12 col-md-6"
+                  class="col-10 col-md-5"
                   type="text"
                   name="lastname"
                   id="lastname"
@@ -38,7 +38,7 @@
               </div>
               <div>
                 <input
-                  class="col-10"
+                  class="col-8"
                   type="text"
                   name="street"
                   id="street"
@@ -51,12 +51,12 @@
                   type="number"
                   name="no"
                   id="no"
-                  placeholder="Haus-Nr."
+                  placeholder="Nr."
                 />
               </div>
               <div>
                 <input
-                  class="col-4"
+                  class="col-3"
                   type="number"
                   name="zipcode"
                   id="zipcode"
@@ -65,22 +65,14 @@
               </div>
               <div>
                 <input
-                  class="col-4"
+                  class="col-7"
                   type="text"
                   name="city"
                   id="city"
                   placeholder="Stadt"
                 />
               </div>
-              <div>
-                <input
-                  class="col-4"
-                  type="text"
-                  name="province"
-                  id="province"
-                  placeholder="Bundesland"
-                />
-              </div>
+
               <div>
                 <input
                   class="col-6"
@@ -92,7 +84,7 @@
               </div>
               <div>
                 <input
-                  class="col-6"
+                  class="col-4"
                   type="tel"
                   name="phone"
                   id="phone"
@@ -101,7 +93,7 @@
               </div>
             </div>
             <div class="checkboxes">
-              <div>
+              <div class="checkbox">
                 <input type="checkbox" id="cbx2" style="display: none" />
                 <label for="cbx2" class="check">
                   <svg width="18px" height="18px" viewBox="0 0 18 18">
@@ -111,13 +103,13 @@
                     <polyline points="1 9 7 14 15 4"></polyline>
                   </svg>
                 </label>
-              </div>
 
-              <label class="reg-label" for="cbx2">
-                Ich möchte meine Telefonnummer mitnehmen und einen Gutschein in
-                Höhe von 60€ sichern.
-              </label>
-              <div>
+                <label class="cbx2" for="cbx2">
+                  Ich möchte meine Telefonnummer mitnehmen und einen Gutschein
+                  in Höhe von 60€ sichern.
+                </label>
+              </div>
+              <div class="checkbox">
                 <input type="checkbox" id="cbx3" style="display: none" />
                 <label for="cbx3" class="check">
                   <svg width="18px" height="18px" viewBox="0 0 18 18">
@@ -127,13 +119,15 @@
                     <polyline points="1 9 7 14 15 4"></polyline>
                   </svg>
                 </label>
+                <label for="cbx3" class="reg-label">
+                  Ich habe die
+                  <a href="#">allgemeinen Geschäftsbedingungen (AGB)</a>
+                  gelesen und akzeptiere den Vertrag.
+                </label>
               </div>
-              <label for="cbx3" class="reg-label">
-                Ich habe die
-                <a href="#">allgemeinen Geschäftsbedingungen (AGB)</a> gelesen
-                und akzeptiere den Vertrag.
-              </label>
-              <a class="reg-btn" href="#" type="submit">Registrieren</a>
+              <div class="reg-btn">
+                <a href="#" type="submit"> Registrieren </a>
+              </div>
             </div>
           </fieldset>
         </form>

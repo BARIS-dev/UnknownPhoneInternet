@@ -112,7 +112,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
   .col-lg-1 {
     width: 8.33%;
   }

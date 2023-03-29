@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  overflow: hidden;
   padding: 1em;
   background-color: var(--primary-color);
   color: var(--text-color);
@@ -12,16 +13,19 @@
 }
 
 .form-register-container {
-  padding: 4em;
+  padding: 3rem;
   border-radius: 50px;
   background: linear-gradient(145deg, #1f242c, #242b34);
   box-shadow: 35px 35px 70px #1d222a, -35px -35px 70px #272e38;
-  display: flex;
-  flex-direction: column;
+  height: min-content;
 }
+
 .form-register-container fieldset {
   border-radius: 20px;
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
 }
 
 .form-register-container input {
@@ -29,7 +33,6 @@
   border-radius: 10px;
   padding: 1rem;
   margin: 0.5rem;
-  max-width: 97%;
   outline: 2px solid var(--main-brand-color);
   background-color: #1d222a;
   color: var(--text-color);
@@ -52,11 +55,26 @@
   color: #73a1c7;
 }
 
-form .reg-btn {
-  padding: 1em 2em;
+.reg-btn {
+  display: flex;
+  justify-content: center;
+}
+.reg-btn a {
   background-color: var(--main-brand-color);
+  padding: 1rem 2rem;
+  display: inline-block;
   text-decoration: none;
-  font-size: 1.2em;
+  border-radius: 15px;
+  color: var(--text-color);
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+.checkboxes {
+  display: flex;
+  gap: 5px;
+  margin: 2em 0 0 0;
+  flex-direction: column;
 }
 /* Checkbox */
 
