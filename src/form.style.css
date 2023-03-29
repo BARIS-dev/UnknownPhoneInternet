@@ -1,0 +1,154 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 1em;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.form-register-container {
+  padding: 4em;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #1f242c, #242b34);
+  box-shadow: 35px 35px 70px #1d222a, -35px -35px 70px #272e38;
+  display: flex;
+  flex-direction: column;
+}
+.form-register-container fieldset {
+  border-radius: 20px;
+  padding: 2em;
+}
+
+.form-register-container input {
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.5rem;
+  max-width: 97%;
+  outline: 2px solid var(--main-brand-color);
+  background-color: #1d222a;
+  color: var(--text-color);
+}
+
+.form-register-container input::placeholder {
+  color: var(--secondary-text-color);
+}
+
+.form-register-container input:focus {
+  outline-color: #17578b;
+  background-color: var(--primary-color);
+}
+
+.form-register-container .reg-heading {
+  font-size: 2rem;
+}
+
+.form-register-container label a {
+  color: #73a1c7;
+}
+
+form .reg-btn {
+  padding: 2rem;
+}
+/* Checkbox */
+
+.check {
+  cursor: pointer;
+  position: relative;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  -webkit-tap-highlight-color: transparent;
+  transform: translate3d(0, 0, 0);
+}
+
+.check:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(34, 50, 84, 0.03);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.check svg {
+  position: relative;
+  z-index: 1;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #c8ccd4;
+  stroke-width: 1.5;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+}
+
+.check svg path {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 0;
+}
+
+.check svg polyline {
+  stroke-dasharray: 22;
+  stroke-dashoffset: 66;
+}
+
+.check:hover:before {
+  opacity: 1;
+}
+
+.check:hover svg {
+  stroke: var(--accent-color, #a3e583);
+}
+
+#cbx2:checked + .check svg {
+  stroke: var(--accent-color, #a3e583);
+}
+
+#cbx2:checked + .check svg path {
+  stroke-dashoffset: 60;
+  transition: all 0.3s linear;
+}
+
+#cbx2:checked + .check svg polyline {
+  stroke-dashoffset: 42;
+  transition: all 0.2s linear;
+  transition-delay: 0.15s;
+}
+
+#cbx3:checked + .check svg {
+  stroke: var(--accent-color, #a3e583);
+}
+
+#cbx3:checked + .check svg path {
+  stroke-dashoffset: 60;
+  transition: all 0.3s linear;
+}
+
+#cbx3:checked + .check svg polyline {
+  stroke-dashoffset: 42;
+  transition: all 0.2s linear;
+  transition-delay: 0.15s;
+}
+
+@media only screen and (min-width: 768px) {
+  .form-register-container {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .form-register-container {
+    width: 50%;
+    margin: auto;
+  }
+}
