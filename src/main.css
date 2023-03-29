@@ -37,3 +37,36 @@
 .categories img {
   margin-bottom: 10px;
 }
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newrelease {
+  background: url(../img/daniel-gzz-ELC0hD4AwB0-unsplash.jpg) top/cover
+    no-repeat;
+  height: 100vh;
+  width: 100%;
+  padding: 5rem;
+  color: var(--text-color);
+  line-height: 3rem;
+  font-size: 2rem;
+}
+
+.newrelease p {
+  text-shadow: 2px 2px 2px black;
+}
+
+.newrelease h2 {
+  color: white;
+  font-size: 5rem;
+  line-height: 5rem;
+  margin-bottom: 1em;
+}
+
+.sam-heading {
+  background: -webkit-linear-gradient(180deg, #3405dd, #a477db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
