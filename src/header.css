@@ -37,7 +37,6 @@
   align-items: center;
   box-shadow: 0px 2px 3px rgba(30, 30, 30, 0.5);
   position: relative;
-  opacity: 60%;
 }
 .nav-links > ul {
   padding-left: 8rem;
