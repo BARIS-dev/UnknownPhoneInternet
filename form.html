@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,129 +9,82 @@
       href="../UnknownPhoneInternet/src/general-style.css"
     />
     <link rel="stylesheet" href="../UnknownPhoneInternet/src/form.style.css" />
-    <title>Form</title>
+    <title>Registrieren</title>
   </head>
   <body>
     <div class="form-container">
-      <div class="form-register-container">
-        <form method="POST" action="#">
-          <fieldset>
-            <legend class="reg-heading">&nbsp Registrieren &nbsp</legend>
-            <div class="inputs">
-              <div>
-                <input
-                  class="col-10 col-md-5"
-                  type="text"
-                  name="firstname"
-                  id="firstname"
-                  placeholder="Ihr Vorname"
-                />
-              </div>
-              <div>
-                <input
-                  class="col-10 col-md-5"
-                  type="text"
-                  name="lastname"
-                  id="lastname"
-                  placeholder="Ihr Nachname"
-                />
-              </div>
-              <div>
-                <input
-                  class="col-8"
-                  type="text"
-                  name="street"
-                  id="street"
-                  placeholder="Straße"
-                />
-              </div>
-              <div>
-                <input
-                  class="col-2"
-                  type="number"
-                  name="no"
-                  id="no"
-                  placeholder="Nr."
-                />
-              </div>
-              <div>
-                <input
-                  class="col-3"
-                  type="number"
-                  name="zipcode"
-                  id="zipcode"
-                  placeholder="Postleitzahl"
-                />
-              </div>
-              <div>
-                <input
-                  class="col-7"
-                  type="text"
-                  name="city"
-                  id="city"
-                  placeholder="Stadt"
-                />
-              </div>
-
-              <div>
-                <input
-                  class="col-6"
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder=" Ihre Email-Adresse"
-                />
-              </div>
-              <div>
-                <input
-                  class="col-4"
-                  type="tel"
-                  name="phone"
-                  id="phone"
-                  placeholder="Ihre Telefonnummer"
-                />
-              </div>
-            </div>
-            <div class="checkboxes">
-              <div class="checkbox">
-                <input type="checkbox" id="cbx2" style="display: none" />
-                <label for="cbx2" class="check">
-                  <svg width="18px" height="18px" viewBox="0 0 18 18">
-                    <path
-                      d="M 1 9 L 1 9 c 0 -5 3 -8 8 -8 L 9 1 C 14 1 17 5 17 9 L 17 9 c 0 4 -4 8 -8 8 L 9 17 C 5 17 1 14 1 9 L 1 9 Z"
-                    ></path>
-                    <polyline points="1 9 7 14 15 4"></polyline>
-                  </svg>
-                </label>
-
-                <label class="cbx2" for="cbx2">
+      <form class="form-box col-12 col-md-8" method="post" action="#">
+        <legend>Registrieren</legend>
+        <div class="row">
+          <div class="form-item-container col-12 col-md-6">
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="Ihr Vorname"
+            />
+          </div>
+          <div class="form-item-container col-12 col-md-6">
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Ihr Nachname"
+            />
+          </div>
+          <div class="form-item-container col-9">
+            <input type="text" name="street" id="street" placeholder="Straße" />
+          </div>
+          <div class="form-item-container col-3">
+            <input
+              type="number"
+              name="houseno"
+              id="houseno"
+              placeholder="Nr."
+            />
+          </div>
+          <div class="form-item-container col-2">
+            <input
+              type="number"
+              name="zipcode"
+              id="zipcode"
+              placeholder="PLZ"
+            />
+          </div>
+          <div class="form-item-container col-5">
+            <input type="text" name="city" id="city" placeholder="Stadt" />
+          </div>
+          <div class="form-item-container col-5">
+            <input
+              type="text"
+              name="province"
+              id="province"
+              placeholder="Bundesland"
+            />
+          </div>
+          <div class="checkbox-container">
+            <div class="form-item-container col-12">
+              <input type="checkbox" name="portability" id="portability" />
+              <small>
+                <label for="portability">
                   Ich möchte meine Telefonnummer mitnehmen und einen Gutschein
-                  in Höhe von 60€ sichern.
+                  in Höhe von 60€ erhalten.
                 </label>
-              </div>
-              <div class="checkbox">
-                <input type="checkbox" id="cbx3" style="display: none" />
-                <label for="cbx3" class="check">
-                  <svg width="18px" height="18px" viewBox="0 0 18 18">
-                    <path
-                      d="M 1 9 L 1 9 c 0 -5 3 -8 8 -8 L 9 1 C 14 1 17 5 17 9 L 17 9 c 0 4 -4 8 -8 8 L 9 17 C 5 17 1 14 1 9 L 1 9 Z"
-                    ></path>
-                    <polyline points="1 9 7 14 15 4"></polyline>
-                  </svg>
-                </label>
-                <label for="cbx3" class="reg-label">
-                  Ich habe die
-                  <a href="#">allgemeinen Geschäftsbedingungen (AGB)</a>
-                  gelesen und akzeptiere den Vertrag.
-                </label>
-              </div>
-              <div class="reg-btn">
-                <a href="#" type="submit"> Registrieren </a>
-              </div>
+              </small>
             </div>
-          </fieldset>
-        </form>
-      </div>
+            <div class="form-item-container col-12">
+              <input type="checkbox" name="agb" id="agb" />
+              <small>
+                <label for="agb">
+                  Ich habe die
+                  <a href="#">allgemeinen Geschäftsbedingungen (AGB)</a> gelesen
+                  und stimme zu.
+                </label>
+              </small>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
   </body>
 </html>

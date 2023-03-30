@@ -6,6 +6,7 @@
   --main-brand-color: #22a6ff;
   --text-color: #eeeeee;
   --secondary-text-color: #b9b9b9;
+  --header-height: 8rem;
 }
 
 * {

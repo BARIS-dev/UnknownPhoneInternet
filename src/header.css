@@ -37,7 +37,6 @@
   align-items: center;
   box-shadow: 0px 2px 3px rgba(30, 30, 30, 0.5);
   position: relative;
-  opacity: 60%;
 }
 .nav-links > ul {
   padding-left: 8rem;
@@ -86,9 +85,9 @@
   display: flex;
   margin-right: 2rem;
   border-radius: 10px;
+  border: 1px solid white;
   padding: 10px;
   gap: 15px;
-  overflow: hidden;
 }
 
 .nav-customer ul img {
