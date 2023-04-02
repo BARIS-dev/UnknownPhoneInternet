@@ -1,10 +1,12 @@
 .ad-sale {
   padding: 10rem 3rem 0 3rem;
-  height: 100vh;
+  height: 130vh;
   min-height: 100px;
   width: 100%;
-  background: url(../img/daniel-lincoln-2iKehl1xKcI-unsplash.jpg) top/cover
-    no-repeat;
+  background: url("../img/daniel-lincoln-2iKehl1xKcI-unsplash.jpg") top/cover
+      no-repeat,
+    linear-gradient(to bottom, rgb(153, 153, 153), rgb(171, 171, 171));
+  background-blend-mode: multiply;
 }
 
 .ad-sale-text {

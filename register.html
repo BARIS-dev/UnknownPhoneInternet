@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../UnknownPhoneInternet/src/general-style.css"
+    />
+    <link rel="stylesheet" href="../UnknownPhoneInternet/src/form.style.css" />
+    <link rel="stylesheet" href="./src/header.css" />
+    <title>Registrieren</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navigation-bar">
+          <div class="contact-bar">
+            <ul class="contact-bar-links">
+              <li><a href="#">Netz</a></li>
+              <li><a href="#">Status</a></li>
+              <li><a href="#">Shops</a></li>
+            </ul>
+            <span>Beratung und Bestellung: 0800 / 012 34 56</span>
+          </div>
+          <nav class="topnav">
+            <div class="nav-logo">
+              <a href="./index.html"
+                ><img src="./img/logo.png" height="80" alt="Logo"
+              /></a>
+            </div>
+            <div class="nav-links">
+              <ul>
+                <li><a href="#">Mobilfunk</a></li>
+                <li><a href="./angebot.html">Angebote</a></li>
+                <li>
+                  <a href="#" class="dropdown">Produkte</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Smartphones</a></li>
+                    <li><a href="#">Tablets</a></li>
+                    <li><a href="#">Fernseher</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="nav-customer">
+              <ul>
+                <li>
+                  <a href="./login.html"
+                    ><img src="./img/icons/8666609_user_icon.svg" /> Anmelden
+                  </a>
+                </li>
+                <li>
+                  <a href="./register.html"
+                    ><img src="./img/icons/8666546_user_plus_icon.svg" />
+                    Registrieren
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="container col-12 col-md-8 col-lg-8">
+      <div class="form-container col-12 col-md-6 col-lg-4">
+        <form class="form-box" method="post" action="#">
+        <fieldset>
+          <legend>&nbsp Registrieren &nbsp</legend>
+          <div class="row">
+            <div class="form-item-container col-12 col-md-6">
+              <input
+                type="text"
+                name="firstname"
+                id="firstname"
+                placeholder="Ihr Vorname"
+              />
+            </div>
+            <div class="form-item-container col-12 col-md-6">
+              <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                placeholder="Ihr Nachname"
+              />
+            </div>
+            <div class="form-item-container col-9">
+              <input
+                type="text"
+                name="street"
+                id="street"
+                placeholder="Straße"
+              />
+            </div>
+            <div class="form-item-container col-3">
+              <input
+                type="number"
+                name="houseno"
+                id="houseno"
+                placeholder="Nr."
+              />
+            </div>
+            <div class="form-item-container col-2">
+              <input
+                type="number"
+                name="zipcode"
+                id="zipcode"
+                placeholder="PLZ"
+              />
+            </div>
+            <div class="form-item-container col-5">
+              <input type="text" name="city" id="city" placeholder="Stadt" />
+            </div>
+            <div class="form-item-container col-5">
+              <input
+                type="text"
+                name="province"
+                id="province"
+                placeholder="Bundesland"
+              />
+            </div>
+            <div class="checkbox-container">
+              <div class="checkbox-item-container col-12">
+                <input type="checkbox" name="portability" id="portability" />
+                <small>
+                  <label for="portability">
+                    Ich möchte meine Telefonnummer mitnehmen und einen Gutschein
+                    in Höhe von 60€ erhalten.
+                  </label>
+                </small>
+              </div>
+              <div class="checkbox-item-container col-12">
+                <input type="checkbox" name="agb" id="agb" />
+                <small>
+                  <label for="agb">
+                    Ich habe die
+                    <a href="#">allgemeinen Geschäftsbedingungen (AGB)</a>
+                    gelesen und stimme zu.
+                  </label>
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="button-container">
+            <a type="submit" href="#">Registrieren</a>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

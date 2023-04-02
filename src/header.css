@@ -36,7 +36,6 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 2px 3px rgba(30, 30, 30, 0.5);
-  position: relative;
 }
 .nav-links > ul {
   padding-left: 8rem;
@@ -154,4 +153,10 @@ nav ul li:hover .dropdown-menu {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  z-index: 1;
 }
