@@ -39,7 +39,8 @@ legend {
   padding: 0.1rem;
 }
 
-.form-item-container input {
+.form-item-container input,
+.form-item-container textarea {
   padding: 1rem;
   background-color: var(--primary-color);
   border: none;
@@ -49,18 +50,21 @@ legend {
   margin: 3px;
 }
 
-.form-item-container input::placeholder {
+.form-item-container input::placeholder,
+.form-item-container textarea::placeholder {
   color: var(--secondary-text-color);
 }
 .form-item-container input::placeholder:hover {
   color: var(--text-color);
 }
 
-.form-item-container input:focus {
+.form-item-container input:focus,
+.form-item-container textarea:focus {
   outline-color: var(--main-brand-color);
 }
 
-.form-item-container input:hover {
+.form-item-container input:hover,
+.form-item-container textarea:hover {
   background-color: var(--secondary-color);
 }
 

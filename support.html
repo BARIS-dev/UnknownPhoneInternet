@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./src/buttons.css" />
     <link rel="stylesheet" href="./src/hero.css" />
     <link rel="stylesheet" href="./src/footer.css" />
-    <link rel="stylesheet" href="./src/support-style.css" />
+    <link rel="stylesheet" href="./src/form.style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -18,248 +18,92 @@
   </head>
   <body>
     <header>
-      <div class="navigation-bar">
-        <div class="contact-bar">
-          <ul class="contact-bar-links">
-            <li><a href="#">Netz</a></li>
-            <li><a href="#">Status</a></li>
-            <li><a href="#">Shops</a></li>
-          </ul>
-          <span>Beratung und Bestellung: 0800 / 012 34 56</span>
+      <div class="navbar">
+        <div class="navigation-bar">
+          <div class="contact-bar">
+            <ul class="contact-bar-links">
+              <li><a href="#">Netz</a></li>
+              <li><a href="#">Status</a></li>
+              <li><a href="#">Shops</a></li>
+            </ul>
+            <span>Beratung und Bestellung: 0800 / 012 34 56</span>
+          </div>
+          <nav class="topnav">
+            <div class="nav-logo">
+              <a href="./index.html"
+                ><img src="./img/logo.png" height="80" alt="Logo"
+              /></a>
+            </div>
+            <div class="nav-links">
+              <ul>
+                <li><a href="#">Mobilfunk</a></li>
+                <li><a href="./angebot.html">Angebote</a></li>
+                <li>
+                  <a href="#" class="dropdown">Produkte</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Smartphones</a></li>
+                    <li><a href="#">Tablets</a></li>
+                    <li><a href="#">Fernseher</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="nav-customer">
+              <ul>
+                <li>
+                  <a href="./login.html"
+                    ><img src="./img/icons/8666609_user_icon.svg" /> Anmelden
+                  </a>
+                </li>
+                <li>
+                  <a href="./register.html"
+                    ><img src="./img/icons/8666546_user_plus_icon.svg" />
+                    Registrieren
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-
-        <nav class="topnav">
-          <div class="nav-logo">
-            <a href="./index.html"
-              ><img src="./img/logo.png" height="80" alt="Logo"
-            /></a>
-          </div>
-          <div class="nav-links">
-            <ul>
-              <li><a href="#">Mobilfunk</a></li>
-              <li><a href="#">Angebote</a></li>
-              <li><a href="#">Produkte</a></li>
-            </ul>
-          </div>
-          <div class="nav-customer">
-            <ul>
-              <li>
-                <a href="#"
-                  ><img src="./img/icons/8666609_user_icon.svg" /> Anmelden
-                </a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="./img/icons/8666546_user_plus_icon.svg" />
-                  Registrieren
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
       </div>
     </header>
-    <main>
-      <h2>Unknown Kundenservice</h2>
-      <h5>Setzen Sie sich ganz leicht mit uns in Verbindung.</h5>
-      <form
-        action="SENDEADRESSE"
-        id="ft-form"
-        method="POST"
-        accept-charset="UTF-8"
-      >
-        <fieldset>
-          <label>
-            Ihr Name <br />
-            <input
-              class="input"
-              type="text"
-              name="Name"
-              placeholder="Ihr Name"
-              required
-          /></label>
-          <label>
-            Ihre E-Mail-Adresse <br />
-            <input
-              class="input"
-              type="email"
-              name="E-Mail"
-              placeholder="Ihre E-Mail-Adresse"
-              required
-          /></label>
-          <label>
-            Ihre Nachricht <br />
-            <textarea
-              class="input"
-              rows="10"
-              name="Nachricht"
-              placeholder="Ihre Nachricht"
-              required
-            ></textarea>
-          </label>
-          <div>
-            <label>
-              <input
-                type="checkbox"
-                name="Datenverarbeitung bestätigt"
-                value="Ja"
-                required
-              />
-              Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben
-              <br />
-              zum Zwecke der Anfragebearbeitung, einverstanden bin.
-            </label>
-          </div>
-
-          <div class="btn">
-            <input type="text" name="_gotcha" value="" style="display: none" />
-            <input class="send-btn" type="submit" value="Absenden" />
-          </div>
-        </fieldset>
-      </form>
-    </main>
-    <footer>
-      <div class="list-c">
-        <ul>
-          <li>
-            <a href="https://www.youtube.com/" class="fa fa-youtube">
-              <span class="icon-social-youtube"></span>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://twitter.com/" class="fa fa-twitter">
-              <span class="icon-social-twitter"></span>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.facebook.com/" class="fa fa-facebook">
-              <span class="icon-social-facebook"></span>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.instagram.com/" class="fa fa-instagram">
-              <span class="icon-social-instagram"></span>
-            </a>
-          </li>
-        </ul>
+    <div class="container col-12 col-md-8 col-lg-8">
+      <div class="form-container col-12 col-md-6 col-lg-4">
+        <form class="form-box" method="post" action="#">
+          <fieldset>
+            <legend>&nbsp Kundenservice &nbsp</legend>
+            <div class="row">
+              <div class="form-item-container col-12">
+                <input
+                  type="fullname"
+                  name="fullname"
+                  id="fullname"
+                  placeholder="Ihr vollstädniger Name"
+                />
+              </div>
+              <div class="form-item-container col-12">
+                <input
+                  type="Betreff"
+                  name="topic"
+                  id="text"
+                  placeholder="Betreff"
+                />
+              </div>
+            </div>
+            <div class="form-item-container col-12">
+              <textarea
+                name="kundentext"
+                id="kundentext"
+                rows="10"
+                placeholder="Ihre Anfrage"
+              ></textarea>
+              <div class="login-btn button-container">
+                <a type="submit" href="#">Absenden</a>
+              </div>
+            </div>
+          </fieldset>
+        </form>
       </div>
-
-      <div class="container-kunden">
-        <div class="kundeninfo">
-          <ol class="list-kunden">
-            <li>
-              <span>Kunden-information</span>
-            </li>
-
-            <li>
-              <a href="#">Newsletter</a>
-            </li>
-
-            <li>
-              <a href="#">Preise & AGB</a>
-            </li>
-
-            <li>
-              <a href="#">Widerrufsrecht</a>
-            </li>
-
-            <li>
-              <a href="#">Ausland & Roaming</a>
-            </li>
-            <li>
-              <a href="#">Cookies</a>
-            </li>
-            <li>
-              <a href="#">Datenschutz</a>
-            </li>
-            <li>
-              <a href="#">Jugendschutz</a>
-            </li>
-          </ol>
-        </div>
-        <div class="topsmartphones">
-          <ol class="list-kunden">
-            <li>
-              <span>Top-Smartphones</span>
-            </li>
-            <li>
-              <a href="#">iPhone 14</a>
-            </li>
-            <li>
-              <a href="#">iPhone 14 Pro Max</a>
-            </li>
-            <li>
-              <a href="#">iPhone 14 Pro</a>
-            </li>
-            <li>
-              <a href="#">iPhone 14 Plus</a>
-            </li>
-            <li>
-              <a href="#">iPhone 13</a>
-            </li>
-          </ol>
-        </div>
-
-        <div class="produkte">
-          <ol class="list-kunden">
-            <li>
-              <span>Produkte&Hersteller</span>
-            </li>
-            <li>
-              <a href="#">Handy-Tarife</a>
-            </li>
-            <li>
-              <a href="#">Handy-Vertrag</a>
-            </li>
-            <li>
-              <a href="#">Prepaid</a>
-            </li>
-            <li>
-              <a href="#">Mobiles Internet</a>
-            </li>
-            <li>
-              <a href="#">Festnetz</a>
-            </li>
-            <li>
-              <a href="#">DSL</a>
-            </li>
-            <li>
-              <a href="#">LTE</a>
-            </li>
-          </ol>
-        </div>
-        <div class="aboutus">
-          <ol class="list-kunden">
-            <li>
-              <span>Über uns</span>
-            </li>
-            <li>
-              <a href="#">Über das Unternehmen </a>
-            </li>
-            <li>
-              <a href="#">Newsroom</a>
-            </li>
-            <li>
-              <a href="#">Management</a>
-            </li>
-            <li>
-              <a href="#">Unsere Netze</a>
-            </li>
-            <li>
-              <a href="#">Inklusion</a>
-            </li>
-            <li>
-              <a href="#">Diversity</a>
-            </li>
-            <li>
-              <a href="#">Nachhaltigkeit</a>
-            </li>
-          </ol>
-        </div>
-      </div>
-    </footer>
+    </div>
   </body>
 </html>
